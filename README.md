@@ -1,2 +1,2 @@
 # Zero-Trust-SecureMail
-FYP Complete Source CCode
+FYP Complete Source Code
