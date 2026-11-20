@@ -1,0 +1,194 @@
+﻿{
+  "Scoring": {
+    "RestrictedSubjectBodyScore": 10,
+    "RestrictedAttachmentNameScore": 8,
+    "ConfidentialSubjectBodyScore": 4,
+    "ConfidentialAttachmentNameScore": 3,
+    "SensitiveAttachmentScore": 4,
+    "ExternalRecipientScore": 8,
+    "AnyAttachmentScore": 2,
+    "SensitiveExternalComboScore": 8
+  },
+
+  "Thresholds": {
+    "Restricted": 20,
+    "Confidential": 8
+  },
+
+  "RestrictedKeywords": [
+    "exam paper",
+    "question paper",
+    "final paper",
+    "midterm paper",
+    "answer key",
+    "solution key",
+    "exam solution",
+    "paper leak",
+
+    "cnic",
+    "identity card",
+    "passport",
+    "license number",
+    "national id",
+    "student id copy",
+
+    "password",
+    "passcode",
+    "otp",
+    "verification code",
+
+    "private key",
+    "secret key",
+    "api key",
+    "access token",
+    "authentication token",
+    "login credentials",
+    "admin access",
+
+    "salary",
+    "payroll",
+    "bank account",
+    "account number",
+    "iban",
+    "credit card",
+    "debit card",
+    "cvv",
+
+    "financial record",
+    "transaction details",
+
+    "confidential",
+    "strictly confidential",
+    "highly confidential",
+
+    "restricted access",
+    "classified",
+    "do not share",
+
+    "result sheet",
+    "grade sheet",
+    "final result",
+
+    "agreement confidential",
+    "nda",
+    "non disclosure",
+
+    "server credentials",
+    "database dump",
+    "system access",
+    "root access",
+    "ssh key",
+    "encryption key",
+
+    "secret",
+    "top secret",
+    "internal leak",
+    "sensitive data"
+  ],
+
+  "ConfidentialKeywords": [
+    "internal",
+    "internal use",
+    "internal document",
+    "for internal circulation",
+    "official use",
+    "office use only",
+
+    "student record",
+    "student data",
+    "transcript",
+
+    "marks",
+    "grading",
+    "evaluation",
+    "assignment review",
+
+    "draft",
+    "proposal",
+    "proposal draft",
+    "initial version",
+    "under review",
+    "pending approval",
+
+    "meeting notes",
+    "minutes of meeting",
+    "discussion points",
+
+    "project details",
+    "project plan",
+    "timeline draft",
+
+    "employee record",
+    "staff data",
+    "attendance",
+    "performance review",
+    "appraisal",
+
+    "confidential discussion",
+    "private discussion",
+
+    "restricted sharing",
+    "sensitive",
+
+    "departmental",
+    "faculty use",
+    "admin only",
+
+    "committee review",
+
+    "source code",
+    "debug log",
+    "system design",
+    "architecture draft",
+    "internal review",
+    "review",
+    "discussion",
+    "notes"
+  ],
+
+  "SensitiveAttachmentPatterns": [
+    ".pem",
+    ".pfx",
+    ".p12",
+    ".key",
+    ".cer",
+    ".crt",
+    ".jks",
+
+    "salary",
+    "payroll",
+    "invoice",
+    "bank",
+    "financial",
+
+    "result",
+    "grade",
+    "marks",
+    "transcript",
+
+    "exam",
+    "question",
+    "answer",
+
+    "passport",
+    "cnic",
+    "identity",
+
+    "confidential",
+    "restricted"
+  ],
+
+  "AllowedInternalDomains": [
+    "company.com"
+  ],
+
+  "Encryption": {
+    "EncryptRestricted": true,
+    "EncryptConfidential": false
+  },
+
+  "UserConfirmation": {
+    "Restricted": true,
+    "Confidential": false
+  }
+}
